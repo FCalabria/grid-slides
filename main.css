@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.js-slides-wrapper {
+  transform: translateX(var(--translationX, 0));
+  display: flex;
+}
+
+.js-slide {
+  width: 100vw;
+  height: 100vh;
+  flex: 0 0 auto;
+  display: flex;
+  font-size: 8rem;
+  color: white;
+  font-family: "Comic Sans MS", sans-serif;
+  align-items: center;
+  background-color: #222f57;
+  justify-content: center;
+}
+
+.slide:nth-child(1) {
+  background-color: #09332D;
+}
+
+.slide:nth-child(2) {
+  background-color: #6F1E09;
+}
+
+.slide:nth-child(3) {
+  background-color: #1D162A;
+}
+
+/*# sourceMappingURL=main.css.map */
